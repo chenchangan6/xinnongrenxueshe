@@ -1,0 +1,29 @@
+/* pages/class/allclass/allClass.wxss */
+
+.tabButton {
+   width: 30%;
+   height: 80rpx;
+   background-color: #f8f8f8;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   border-radius: 10rpx;
+   font-size: 25rpx;
+   color: gray;
+   margin: 10rpx;
+}
+
+.tabButtonSelected {
+   width: 30%;
+   height: 80rpx;
+   background-color: #1eac4b;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   border-radius: 10rpx;
+   font-size: 25rpx;
+   color: white;
+   margin: 10rpx;
+}

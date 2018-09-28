@@ -1,0 +1,27 @@
+<template name="classList">
+
+<navigator hover-class='none' url="/pages/class/class/classplay" wx:for="{{classlist}}"  wx:for-index="idx" wx:key="idx" class='viewRow marginTop20'>
+      <view class='percentWidth50'>
+         <image src="{{index}}{{item.classimg}}" class='height200 width330' mode='aspectFit' />
+      </view>
+      <view class='percentWidth50 viewColumn'>
+         <view>
+            <text class='ft28'>{{index}}{{item.classTitle}}</text>
+         </view>
+         <view class='ft24 colorFontGray marginTop10'>
+            <text>{{index}}{{item.teacher}}</text>
+            <text class='marginLeft10'>丹棱科技小院专家</text>
+         </view>
+         <view>
+         <image src='/pages/images/icon/star.png' class='height30 width30' mode='aspectFit'></image>
+         <image src='/pages/images/icon/star.png' class='height30 width30' mode='aspectFit'></image>
+         <image src='/pages/images/icon/star.png' class='height30 width30' mode='aspectFit'></image>
+         <image src='/pages/images/icon/star.png' class='height30 width30' mode='aspectFit'></image>
+         <image src='/pages/images/icon/graystar.png' class='height30 width30' mode='aspectFit'></image>
+         <text class='ft30 marginLeft20 colorFontGray'>4.9</text>
+         </view>
+
+      </view>
+  </navigator>
+   
+   </template>

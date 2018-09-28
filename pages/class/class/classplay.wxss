@@ -1,0 +1,10 @@
+/* pages/class/class/classplay.wxss */
+
+page {
+   background-color: #f8f8f8;
+}
+
+.videos {
+   height: 420rpx;
+   width: 100%;
+}

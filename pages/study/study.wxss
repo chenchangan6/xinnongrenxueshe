@@ -1,0 +1,13 @@
+/* pages/study/study.wxss */
+.swiper-image {
+   width: 100%;
+   height: 100%;
+   }
+
+.swiper-box {
+  width: 100%;
+  background-color:white;
+}
+page{
+   background-color:#f8f8f8;
+}

@@ -1,0 +1,25 @@
+/* 圆角矩形10-50 步长10 */
+.rounded10 {
+   display: flex;
+   border-radius: 10rpx;
+}
+
+.rounded20 {
+   display: flex;
+   border-radius: 20rpx;
+}
+
+.rounded30 {
+   display: flex;
+   border-radius: 30rpx;
+}
+
+.rounded40 {
+   display: flex;
+   border-radius: 40rpx;
+}
+
+.rounded50 {
+   display: flex;
+   border-radius: 50rpx;
+}

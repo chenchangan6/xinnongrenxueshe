@@ -1,0 +1,11 @@
+/* pages/mine/mine.wxss */
+page{
+   background-color:#f8f8f8;
+}
+.userinfo-avatar {
+   width: 128rpx;
+   height: 128rpx;
+   margin: 20rpx;
+   border: 1rpx solid #fff;
+   border-radius: 50%;
+}

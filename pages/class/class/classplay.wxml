@@ -1,0 +1,67 @@
+<!--pages/class/class/classplay.wxml-->
+<!-- 视频播放器开始 -->
+<view class='bgWhite'>
+   <view>
+      <video poster='https://1252144493.vod2.myqcloud.com/da0ca122vodgzp1252144493/a80d154c5285890781830035582/5285890781857967497.png' src='http://1252144493.vod2.myqcloud.com/8e3443cavodtransgzp1252144493/a80d154c5285890781830035582/v.f20.mp4' controls='false'
+         class='videos' objectFit="fill"></video>
+   </view>
+   <!-- 课程标签开始 -->
+
+   <view class='viewRow center padding20 viewSpaceBetween'>
+      <view class='percentWidth30 ft30 colorBlack'>
+         课程介绍
+      </view>
+      <view class='percentWidth30 ft30 colorFontGray'>
+         目录
+      </view>
+      <view class='percentWidth30 ft30 colorFontGray'>
+         评价
+      </view>
+   </view>
+
+   <!-- 课程标签结束 -->
+   <view class='lineall'></view>
+</view>
+<!-- 课程介绍开始 -->
+
+<view class='padding30 bgWhite'>
+   <!-- 标题开始 -->
+   <view class='ft30'>叶面喷肥收效甚微？难道真是产品质量问题吗？</view>
+   <view class='viewRow viewSpaceBetween'>
+      <view class='ft25 colorFontGray marginTop20'>时长 00:04:53</view>
+      <view class='viewRow padding10'>
+         <view>
+            <image src='/pages/images/icon/star.png' class='height30 width30' mode='aspectFit'></image>
+            <image src='/pages/images/icon/star.png' class='height30 width30' mode='aspectFit'></image>
+            <image src='/pages/images/icon/star.png' class='height30 width30' mode='aspectFit'></image>
+            <image src='/pages/images/icon/star.png' class='height30 width30' mode='aspectFit'></image>
+            <image src='/pages/images/icon/graystar.png' class='height30 width30' mode='aspectFit'></image>
+            <text class='ft25 marginLeft20 colorFontGray'>4.9</text>
+         </view>
+      </view>
+   </view>
+   <view class='lineall'></view>
+   <!-- 标题介绍 -->
+   <!-- 老师开始 -->
+   <view class="viewRow center-items">
+      <image class="userinfo-avatar" src="/testimg/teacher/1.png" mode="cover"></image>
+      <view class='viewColumn center-item percentWidth70'>
+         <text class="userinfo-nickname ft40">龙泉</text>
+         <text class="userinfo-nickname ft25 colorFontGray">丹棱科技小院专家</text>
+      </view>
+      <view class='colorFontGray ft70'>></view>
+   </view>
+   <!-- 老师结束 -->
+
+</view>
+<!-- 课程详情开始 -->
+
+<view class='marginTop20 bgWhite paddingLeft30'>
+   <view class='ft40 paddingTop30'>课程介绍</view>
+   <view class='ft30 padding20' style='line-height:50rpx;'>
+      四川省蒲江县光照弱、温差小，适合丑柑生长。蒲江县的徐春林先生种了二十亩丑柑，亩产量大约在4000斤左右。丑柑的批发收购价格约为5-8元/斤，徐先生种一亩丑柑，除去人工和成本，每亩最少赚10000元，拥有二十亩丑柑果园的徐先生每年轻轻松松就能赚上二十万。 种植丑柑比一般柑橘更赚钱 现在市场上柑橘品种有很多，但是大部分柑橘市场价格都较低，比如我们常见的橘子市场价一般在2-3元左右，而丑柑一斤就能卖5-10元，甚至20元？！ 毫无疑问，丑柑已经在柑橘界独占鳌头了！
+   </view>
+</view>
+<!-- 课程详情结束 -->
+
+<!-- 课程介绍结束 -->

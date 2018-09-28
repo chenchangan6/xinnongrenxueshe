@@ -1,0 +1,20 @@
+<!--pages/class/allclass/allClass.wxml-->
+<!-- 标签按钮 -->
+
+<view class='viewRow viewWrap paddingLeft10'>
+   <view class='tabButtonSelected'>全部(78)</view>
+   <view class='tabButton'>系列课程(78)</view>
+   <view class='tabButton'>指导课程(23)</view>
+   <view class='tabButton'>专业课程(12)</view>
+   <view class='tabButton'>问答课程(2)</view>
+   <view class='tabButton'>推荐课程(10)</view>
+</view>
+<view class='line'>
+</view>
+<!-- 课程列表开始 -->
+<view class='padding20'>
+<!-- 导入模板页 -->
+<import src="/template/list/classlist/classlist.wxml" />
+<template is="classList" data="{{classlist}}"></template>
+</view>
+<!-- 课程列表结束 -->

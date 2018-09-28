@@ -1,0 +1,45 @@
+{
+   "pages": [
+      
+      "pages/study/study",
+      "pages/mine/mine",
+      "pages/logs/logs",
+      "pages/coach/coach",
+      "pages/class/class/classplay",
+      "pages/class/allclass/allClass"
+   ],
+   "window": {
+      "backgroundTextStyle": "light",
+      "navigationBarBackgroundColor": "#fff",
+      "navigationBarTitleText": "新农人学社",
+      "navigationBarTextStyle": "black"
+   },
+   "tabBar": {
+      "list": [
+         {
+            "pagePath": "pages/study/study",
+            "text": "学习",
+            "color": "#303133",
+            "selectedColor": "#1EAC4B",
+            "iconPath": "/pages/images/tabBar/study.png",
+            "selectedIconPath": "/pages/images/tabBar/study-2.png"
+         },
+         {
+            "pagePath": "pages/coach/coach",
+            "text": "指导",
+            "color": "#303133",
+            "selectedColor": "#1EAC4B",
+            "iconPath": "/pages/images/tabBar/coach.png",
+            "selectedIconPath": "/pages/images/tabBar/coach-2.png"
+         },
+         {
+            "pagePath": "pages/mine/mine",
+            "text": "我的",
+            "color": "#303133",
+            "selectedColor": "#1EAC4B",
+            "iconPath": "/pages/images/tabBar/mine.png",
+            "selectedIconPath": "/pages/images/tabBar/mine-2.png"
+         }
+      ]
+   }
+}

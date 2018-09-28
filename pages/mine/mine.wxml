@@ -1,0 +1,173 @@
+<!--pages/mine/mine.wxml-->
+
+<!-- 已经获取用户信息，显示用户中心 -->
+<view class='bgWhite'>
+   <view>
+      <view class="viewRow">
+         <!-- 头像开始 -->
+         <view class="viewRow center-items percentWidth70">
+            <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+            <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+         </view>
+         <!-- 头像结束 -->
+         <!-- 签到开始 -->
+         <view class='center flex'>
+            <view class="ft30 center colorWhite width200 height65 rounded50 bgStarGreen">签到</view>
+         </view>
+         <!-- 签到结束 -->
+      </view>
+   </view>
+   <!-- 横线 -->
+   <view class='line'>
+   </view>
+   <!-- 统计卡 -->
+   <view class='viewRow padding20'>
+      <!-- 今日学习开始 -->
+      <view class='viewColumn center percentWidth33 ft25 colorFontGray'>
+         <view class='padding10'>
+            <text class='ft35 colorStarGreen'>2</text> 小时</view>
+         <view>今日学习</view>
+      </view>
+      <!-- 今日学习结束 -->
+      <!-- 累计学习开始 -->
+      <view class='viewColumn center percentWidth33 ft25 colorFontGray'>
+         <view class='padding10'>
+            <text class='ft35 colorStarGreen'>20</text> 小时</view>
+         <view>累计学习</view>
+      </view>
+      <!-- 累计学习结束 -->
+      <!-- 积分兑换开始 -->
+      <view class='viewColumn center percentWidth33 ft25 colorFontGray'>
+         <view class='padding10'>
+            <text class='ft35 colorStarGreen'>2000</text>
+         </view>
+         <view>积分兑换 ></view>
+      </view>
+      <!-- 积分兑换结束 -->
+   </view>
+</view>
+<!-- 统计卡结束 -->
+<!-- 菜单列表开始 -->
+<view class='bgWhite marginTop20'>
+   <!-- 我的班级开始 -->
+   <navigator>
+      <view class='viewRow center-item ft30 padding30'>
+         <view class='percentWidth10'>
+            <image src='/pages/images/icon/mine/1.png' class='menuicon'></image>
+         </view>
+         <view class='percentWidth85'>
+            <text>我的班级</text>
+         </view>
+         <view class='colorFontGray'>
+            <text>></text>
+         </view>
+      </view>
+
+      <view class='line-item'></view>
+   </navigator>
+   <!-- 我的班级结束 -->
+   <!-- 我的课程开始 -->
+   <navigator>
+      <view class='viewRow center-item ft30 padding30'>
+         <view class='percentWidth10'>
+            <image src='/pages/images/icon/mine/2.png' class='menuicon'></image>
+         </view>
+         <view class='percentWidth85'>
+            <text>我的课程</text>
+         </view>
+         <view class='colorFontGray'>
+            <text>></text>
+         </view>
+      </view>
+      <view class='line-item'></view>
+   </navigator>
+   <!-- 我的课程结束 -->
+   <!-- 我的辅导卡开始 -->
+   <navigator>
+      <view class='viewRow center-item ft30 padding30'>
+         <view class='percentWidth10'>
+            <image src='/pages/images/icon/mine/3.png' class='menuicon'></image>
+         </view>
+         <view class='percentWidth85'>
+            <text>我的辅导卡</text>
+         </view>
+         <view class='colorFontGray'>
+            <text>></text>
+         </view>
+      </view>
+      <view class='line-item'></view>
+   </navigator>
+   <!-- 辅导卡结束 -->
+   <!-- 我的收藏卡开始 -->
+   <navigator>
+      <view class='viewRow center-item ft30 padding30'>
+         <view class='percentWidth10'>
+            <image src='/pages/images/icon/mine/4.png' class='menuicon'></image>
+         </view>
+         <view class='percentWidth85'>
+            <text>我的收藏</text>
+         </view>
+         <view class='colorFontGray'>
+            <text>></text>
+         </view>
+      </view>
+   </navigator>
+   <!-- 收藏结束 -->
+</view>
+<!-- 菜单列表结束 -->
+<!-- 兑换码开始 -->
+<view class='bgWhite marginTop20'>
+   <!-- 兑换码开始 -->
+   <navigator>
+      <view class='viewRow center-item ft30 padding30'>
+         <view class='percentWidth10'>
+            <image src='/pages/images/icon/mine/5.png' class='menuicon'></image>
+         </view>
+         <view class='percentWidth85'>
+            <text>兑换码</text>
+         </view>
+         <view class='colorFontGray'>
+            <text>></text>
+         </view>
+      </view>
+
+   </navigator>
+   <!-- 兑换码结束 -->
+</view>
+<!-- 兑换码结束 -->
+<!-- 客服菜单开始 -->
+<view class='bgWhite marginTop20'>
+   <!-- 意见建议开始 -->
+   <navigator>
+      <view class='viewRow center-item ft30 padding30'>
+         <view class='percentWidth10'>
+            <image src='/pages/images/icon/mine/6.png' class='menuicon'></image>
+         </view>
+         <view class='percentWidth85'>
+            <text>意见建议</text>
+         </view>
+         <view class='colorFontGray'>
+            <text>></text>
+         </view>
+      </view>
+      <view class='line-item'></view>
+   </navigator>
+   <!-- 意见建议结束 -->
+   <!-- 电话客服开始 -->
+   <navigator>
+      <view class='viewRow center-item ft30 padding30'>
+         <view class='percentWidth10'>
+            <image src='/pages/images/icon/mine/7.png' class='menuicon'></image>
+         </view>
+         <view class='percentWidth85'>
+            <text>电话客服</text>
+         </view>
+         <view class='colorFontGray'>
+            <text>></text>
+         </view>
+      </view>
+
+   </navigator>
+   <!-- 电话客服结束 -->
+</view>
+<!-- 客服菜单结束 -->

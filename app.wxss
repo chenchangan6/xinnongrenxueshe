@@ -1,0 +1,81 @@
+/**app.wxss**/
+@import "/common/heightAndWidth.wxss";
+@import "/common/colorAndFont.wxss";
+@import "/common/marginAndPadding.wxss";
+@import "/common/Icon.wxss";
+
+.viewRow {
+   display: flex;
+   flex-direction: row;
+}
+
+.viewWrap {
+   flex-wrap: wrap;
+}
+
+.viewColumn {
+   display: flex;
+   flex-direction: column;
+}
+
+.viewSpaceBetween {
+   justify-content: space-between;
+}
+
+.flex {
+   display: flex;
+}
+
+.center {
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+}
+
+.center-items {
+   align-items: center;
+}
+
+.container {
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   padding: 200rpx 0;
+   box-sizing: border-box;
+}
+
+/* 横线 */
+
+.lineall {
+   height: 1px;
+   background-color: #ebeef5;
+}
+
+.line {
+   height: 1px;
+   background-color: #ebeef5;
+   margin: 20rpx 20rpx 10rpx 20rpx;
+}
+
+.line-item {
+   height: 1px;
+   background-color: #ebeef5;
+   margin: 0rpx 20rpx 0rpx 80rpx;
+}
+
+/* 菜单Icon */
+
+.menuicon {
+   height: 40rpx;
+   width: 40rpx;
+}
+
+.userinfo-avatar {
+   width: 128rpx;
+   height: 128rpx;
+   margin: 20rpx;
+   border: 1rpx solid #fff;
+   border-radius: 50%;
+}

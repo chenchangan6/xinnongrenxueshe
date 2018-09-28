@@ -1,0 +1,279 @@
+/* 背景 */
+
+.bgWhite {
+   background-color: white;
+}
+
+.bgred {
+   background-color: red;
+}
+
+.bgAllBackground {
+   background-color: #f8f8f8;
+}
+
+.bgStarGreen {
+   background-color: #1eac4b;
+}
+
+/* 颜色 */
+.colorBlack {
+   color: black;
+}
+.colorWhite {
+   color: white;
+}
+
+.colorFontGray {
+   color: #909399;
+}
+
+.colorStarGreen {
+   color: #1eac4b;
+}
+
+.colorStarGray {
+   color: #ebeef5;
+}
+
+/* 字号 10-60rpx */
+
+.ft1 {
+   font-size: 1rpx;
+}
+
+.ft2 {
+   font-size: 2rpx;
+}
+
+.ft3 {
+   font-size: 3rpx;
+}
+
+.ft4 {
+   font-size: 4rpx;
+}
+
+.ft5 {
+   font-size: 5rpx;
+}
+
+.ft6 {
+   font-size: 6rpx;
+}
+
+.ft7 {
+   font-size: 7rpx;
+}
+
+.ft8 {
+   font-size: 8rpx;
+}
+
+.ft9 {
+   font-size: 9rpx;
+}
+
+.ft10 {
+   font-size: 10rpx;
+}
+
+.ft11 {
+   font-size: 11rpx;
+}
+
+.ft12 {
+   font-size: 12rpx;
+}
+
+.ft13 {
+   font-size: 13rpx;
+}
+
+.ft14 {
+   font-size: 14rpx;
+}
+
+.ft15 {
+   font-size: 15rpx;
+}
+
+.ft16 {
+   font-size: 16rpx;
+}
+
+.ft17 {
+   font-size: 17rpx;
+}
+
+.ft18 {
+   font-size: 18rpx;
+}
+
+.ft19 {
+   font-size: 19rpx;
+}
+
+.ft20 {
+   font-size: 20rpx;
+}
+
+.ft21 {
+   font-size: 21rpx;
+}
+
+.ft22 {
+   font-size: 22rpx;
+}
+
+.ft23 {
+   font-size: 23rpx;
+}
+
+.ft24 {
+   font-size: 24rpx;
+}
+
+.ft25 {
+   font-size: 25rpx;
+}
+
+.ft26 {
+   font-size: 26rpx;
+}
+
+.ft27 {
+   font-size: 27rpx;
+}
+
+.ft28 {
+   font-size: 28rpx;
+}
+
+.ft29 {
+   font-size: 29rpx;
+}
+
+.ft30 {
+   font-size: 30rpx;
+}
+
+.ft31 {
+   font-size: 31rpx;
+}
+
+.ft32 {
+   font-size: 32rpx;
+}
+
+.ft33 {
+   font-size: 33rpx;
+}
+
+.ft34 {
+   font-size: 34rpx;
+}
+
+.ft35 {
+   font-size: 35rpx;
+}
+
+.ft36 {
+   font-size: 36rpx;
+}
+
+.ft37 {
+   font-size: 37rpx;
+}
+
+.ft38 {
+   font-size: 38rpx;
+}
+
+.ft39 {
+   font-size: 39rpx;
+}
+
+.ft40 {
+   font-size: 40rpx;
+}
+
+.ft41 {
+   font-size: 41rpx;
+}
+
+.ft42 {
+   font-size: 42rpx;
+}
+
+.ft43 {
+   font-size: 43rpx;
+}
+
+.ft44 {
+   font-size: 44rpx;
+}
+
+.ft45 {
+   font-size: 45rpx;
+}
+
+.ft46 {
+   font-size: 46rpx;
+}
+
+.ft47 {
+   font-size: 47rpx;
+}
+
+.ft48 {
+   font-size: 48rpx;
+}
+
+.ft49 {
+   font-size: 49rpx;
+}
+
+.ft50 {
+   font-size: 50rpx;
+}
+
+.ft51 {
+   font-size: 51rpx;
+}
+
+.ft52 {
+   font-size: 52rpx;
+}
+
+.ft53 {
+   font-size: 53rpx;
+}
+
+.ft54 {
+   font-size: 54rpx;
+}
+
+.ft55 {
+   font-size: 55rpx;
+}
+
+.ft56 {
+   font-size: 56rpx;
+}
+
+.ft57 {
+   font-size: 57rpx;
+}
+
+.ft58 {
+   font-size: 58rpx;
+}
+
+.ft59 {
+   font-size: 59rpx;
+}
+
+.ft60 {
+   font-size: 60rpx;
+}
