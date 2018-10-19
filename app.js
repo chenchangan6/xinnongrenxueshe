@@ -25,7 +25,8 @@ App({
          success: res => {
             console.log(res.code)
             wx.request({
-               url: 'http://127.0.0.1:5000/users/GetOpenId',
+               url: 'https://api.pmptiku.com/users/GetOpenId',
+               // url: 'https://api.pmptiku.com/users/GetOpenId',
                data: {
                   code: res.code
                },
@@ -33,7 +34,7 @@ App({
                   'content-type': 'application/text' // 默认值
                },
                success(res) {
-                  console.log(res.data)
+                  console.log('您的OPENID：'+res.data)
                }
 
                // dataType:JSON
