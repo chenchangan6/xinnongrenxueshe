@@ -23,6 +23,21 @@ App({
       // 登录
       wx.login({
          success: res => {
+            console.log(res.code)
+            wx.request({
+               url: 'http://127.0.0.1:5000/users/GetOpenId',
+               data: {
+                  code: res.code
+               },
+               header: {
+                  'content-type': 'application/text' // 默认值
+               },
+               success(res) {
+                  console.log(res.data)
+               }
+
+               // dataType:JSON
+            })
             // 发送 res.code 到后台换取 openId, sessionKey, unionId
          }
       })
@@ -50,5 +65,6 @@ App({
    globalData: {
       userInfo: null,
    }
+
 
 })

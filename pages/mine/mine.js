@@ -16,7 +16,7 @@ Page({
             that.setData({
                userInfo: res.data
             })
-            // console.log(res.data)
+            console.log(res.data)
          },
       })
    },
