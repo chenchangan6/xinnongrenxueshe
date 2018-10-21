@@ -26,7 +26,7 @@ App({
             console.log(res.code)
             wx.request({
                url: 'https://api.pmptiku.com/users/GetOpenId',
-               // url: 'https://api.pmptiku.com/users/GetOpenId',
+               // url: 'http://127.0.0.1:5000',
                data: {
                   code: res.code
                },
